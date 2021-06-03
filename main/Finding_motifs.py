@@ -1,5 +1,4 @@
 # Autor: Carmen Lucía Arrabalí Cañete
-import kmers as kmers
 
 import DNA
 import operator
