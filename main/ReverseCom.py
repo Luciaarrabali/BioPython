@@ -9,4 +9,5 @@ def reverse_complement(dna):
     for base in dna:
         rc += complement[base]
     return ''.join(reversed(rc))
+
 print(DNA.dna, reverse_complement(DNA.dna))
