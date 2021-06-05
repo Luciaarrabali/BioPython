@@ -10,7 +10,7 @@ class ReverseCompIT(unittest.TestCase):
         self.reverseComplement = reverse_complement()
 
     def test_something(self):
-        self.assertEqual('AGGAGTAAGA', self.reverseComplement('TCTTACTCCT'))
+        self.assertEqual('ACGT', self.reverseComplement('GTAC'))
 
 
 if __name__ == '__main__':
