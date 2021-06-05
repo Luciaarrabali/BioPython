@@ -2,5 +2,5 @@
 
 import random
 
-dna = ''.join([random.choice('ACGT') for _ in range(100)])
+dna = ''.join([random.choice('ACGT') for _ in range(10)])
 print(dna)
