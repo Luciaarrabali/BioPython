@@ -1,5 +1,6 @@
-import unittest
+# Autor: Carmen Lucía Arrabalí Cañete
 
+import unittest
 
 class ReverseCompIT(unittest.TestCase):
     def test_something(self):

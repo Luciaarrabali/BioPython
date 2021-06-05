@@ -1,3 +1,5 @@
+# Autor: Carmen Lucía Arrabalí Cañete
+
 import unittest
 
 from main.GC_Content import gc_content
