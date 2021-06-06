@@ -1,7 +1,8 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
-from main import DNA
+from typing import List
 
-k = 4
-for i in range(len(DNA.dna) - k + 1):
-    print(DNA.dna[i:i+k])
+from main.DNA import random_DNA
+
+def k_mer(dna: str, k: int) -> List[str]:
+    return [dna[i:i+k] for i in range(len(dna)-k+1)]
