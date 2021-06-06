@@ -2,7 +2,7 @@
 
 import unittest
 
-from main.GC_Content import gc_content
+from src.main.GC_Content import gc_content
 
 class GC_ContentIT(unittest.TestCase):
     def setUp(self):

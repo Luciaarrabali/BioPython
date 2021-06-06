@@ -1,6 +1,5 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
-from main import DNA
 from collections import Counter
 from typing import List, Tuple
 

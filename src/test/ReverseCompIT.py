@@ -2,7 +2,7 @@
 
 import unittest
 
-from main.ReverseCom import reverse_complement
+from src.main.ReverseCom import reverse_complement
 
 class ReverseCompIT(unittest.TestCase):
 

@@ -1,7 +1,7 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
 import unittest
-from main.Hamming import hamming
+from src.main.Hamming import hamming
 
 class HammingIT(unittest.TestCase):
     def setUp(self):

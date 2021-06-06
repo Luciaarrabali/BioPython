@@ -2,9 +2,8 @@
 
 import unittest
 
-from main.Finding_motifs import motifs
-from main.DNA import random_DNA
-from collections import Counter
+from src.main.Finding_motifs import motifs
+from src.main.DNA import random_DNA
 
 
 class Finding_motifsIT(unittest.TestCase):

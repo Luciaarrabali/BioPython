@@ -2,7 +2,7 @@
 
 import unittest
 
-from main.DNA import random_DNA
+from src.main.DNA import random_DNA
 
 class DNAIT(unittest.TestCase):
     def setUp(self):

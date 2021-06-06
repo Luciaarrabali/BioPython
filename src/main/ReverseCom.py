@@ -1,6 +1,7 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
-from main import DNA
+from src.main import DNA
+
 
 def reverse_complement(dna):
     complement = {'A': 'T', 'T': 'A',

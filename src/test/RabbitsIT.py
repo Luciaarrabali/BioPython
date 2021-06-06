@@ -2,7 +2,7 @@
 
 import unittest
 
-from main.Rabbits import fibonacci
+from src.main.Rabbits import fibonacci
 
 class RabbitsIT(unittest.TestCase):
     def setUp(self):

@@ -2,7 +2,7 @@
 
 import unittest
 
-from main.K_Mers import k_mer
+from src.main.K_Mers import k_mer
 
 class K_MersIT(unittest.TestCase):
     def test_kmers_of_empty_sequence_should_be_empty(self):
