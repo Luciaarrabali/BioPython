@@ -7,4 +7,4 @@ from collections import Counter
 k = 2
 
 motifs = Counter([DNA.dna[i:i+k] for i in range(len(DNA.dna)-k+1)])
-print(motifs.most_common(5))
+print(motifs.most_common(2))
