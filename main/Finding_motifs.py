@@ -2,9 +2,8 @@
 
 from main import DNA
 from collections import Counter
+from typing import List, Tuple
 
-#Se utiliza el valor 2 porque así será más sencillo de ver puesto que es más corto.
-k = 2
-
-motifs = Counter([DNA.dna[i:i+k] for i in range(len(DNA.dna)-k+1)])
-print(motifs.most_common(2))
+def motifs(dna: str, k: int, n: int = 5) -> List[Tuple[str, int]]:
+    motifs = Counter([dna[i:i+k] for i in range(len(dna)-k+1)])
+    return motifs.most_common(n)

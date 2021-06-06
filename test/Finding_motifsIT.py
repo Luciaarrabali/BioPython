@@ -3,15 +3,21 @@
 import unittest
 
 from main.Finding_motifs import motifs
+from main.DNA import random_DNA
 from collections import Counter
 
 
 class Finding_motifsIT(unittest.TestCase):
-    def setUp(self):
-        self.FindingMotifs = motifs
+    def test_motifs_of_empty_sequence_should_be_empty(self):
+        self.assertEqual([], motifs('', 3))
 
-    def test_Finding_motifs_one(self):
-        self.assertEqual([('AG', 2), ('TT', 2)], motifs('TAGGTTTGAG'))
+    def test_number_of_results_parameter(self):
+        seq = random_DNA(100)
+        self.assertEqual(5, len(motifs(seq, 3, 5)))
+
+    def test_motifs_count_should_be_correct(self):
+        seq = 'ACACGACTAC'
+        self.assertEqual([('AC', 4)], motifs(seq, 2, 1))
 
 
 if __name__ == '__main__':
