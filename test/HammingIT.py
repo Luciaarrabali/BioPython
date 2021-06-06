@@ -1,10 +1,17 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
 import unittest
+from main.Hamming import hamming
 
 class HammingIT(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)
+    def setUp(self):
+        self.hamming = hamming
+
+    def test_GC_Content_first(self):
+        self.assertEqual(6, self.hamming('TGCCTTTACA', 'TGTAAAGGCA'))
+
+    def test_GC_Content_first(self):
+        self.assertEqual(8, self.hamming('AAGGTTATGT', 'ACATAACCTT'))
 
 
 if __name__ == '__main__':

@@ -1,7 +1,7 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
-import DNA
-from ReverseCom import reverse_complement
+from main import DNA
+from main.ReverseCom import reverse_complement
 
 list(zip('ACTG','GTCA'))
 
