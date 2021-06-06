@@ -1,6 +1,6 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
-import DNA
+from main import DNA
 from collections import Counter
 
 #Se utiliza el valor 2 porque así será más sencillo de ver puesto que es más corto.
