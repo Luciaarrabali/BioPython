@@ -7,5 +7,5 @@ def fibonacci(n):
         child, parent = parent, parent + child
     return child
 
-for i in range(50):
+for i in range(20):
     print(fibonacci(i), end=' ')

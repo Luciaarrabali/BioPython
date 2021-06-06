@@ -7,10 +7,10 @@ class HammingIT(unittest.TestCase):
     def setUp(self):
         self.hamming = hamming
 
-    def test_GC_Content_first(self):
+    def test_Hamming_first(self):
         self.assertEqual(6, self.hamming('TGCCTTTACA', 'TGTAAAGGCA'))
 
-    def test_GC_Content_first(self):
+    def test_Hamming_second(self):
         self.assertEqual(8, self.hamming('AAGGTTATGT', 'ACATAACCTT'))
 
 
