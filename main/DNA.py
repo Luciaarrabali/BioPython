@@ -2,5 +2,6 @@
 
 import random
 
-dna = ''.join([random.choice('ACGT') for _ in range(10)])
-print(dna)
+def random_DNA(length: int) -> str:
+    dna = ''.join([random.choice('ACGT') for _ in range(length)])
+    return(dna)
