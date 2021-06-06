@@ -1,6 +1,6 @@
 # Autor: Carmen Lucía Arrabalí Cañete
 
-import DNA
+from main import DNA
 
 def gc_content(dna):
     return float(dna.count('G') + dna.count('C'))/len(dna)
